@@ -18,9 +18,8 @@ spec:
         app: accounts
     spec:
       containers:
-      - image: us.icr.io/sn-labs-ngyu0034/accounts:1
+      - image: IMAGE_NAME_HERE
         name: accounts
-        resources: {}
 
         env:
          - name: DATABASE_HOST
