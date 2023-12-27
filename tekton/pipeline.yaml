@@ -98,4 +98,4 @@ spec:
           oc apply -f deploy/
           oc get pods -l app=accounts
       runAfter:
-        - buil
+        - build
